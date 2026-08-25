@@ -7,16 +7,18 @@
   <meta name="theme-color" content="#101010">
   <title>Guincho Rápido SP | Atendimento 24 Horas</title>
   <link rel="icon" type="image/png" href="favicon.png">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17912614710"></script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5QN273JQ');</script>
+  <!-- End Google Tag Manager -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-17912614710');
-
     function trackContact(channel, service) {
-      gtag('event', 'generate_lead', {
+      window.dataLayer.push({
+        event: 'generate_lead',
         event_category: 'contato',
         event_label: service || channel,
         contact_method: channel
@@ -43,6 +45,10 @@
   </style>
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5QN273JQ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header class="top"><div class="wrap"><a class="brand" href="#inicio" aria-label="Guincho 24 Horas — início"><span class="brand-logo-frame"><img src="logo-guincho-24h-pdf-transparente.png" alt="Guincho 24 Horas"></span></a><a class="top-phone" href="tel:+5511992442323" onclick="trackContact('ligacao','telefone_cabecalho')"><span>Ligue agora — 24 horas</span>(11) 99244-2323</a></div></header>
   <main>
     <section class="hero" id="inicio"><div class="wrap"><div class="hero-content"><div class="eyebrow"><span class="dot"></span> Atendimento imediato • 24h</div><h1>Seu carro parou?<em>A gente resolve.</em></h1><p class="lead">Guincho rápido e seguro em São Paulo para carros, motos, caminhonetes e utilitários. Peça seu orçamento agora.</p><div class="actions"><a class="btn btn-wa" href="https://wa.me/5511992442323?text=Olá!%20Preciso%20de%20um%20guincho.%20Minha%20localização%20é:%20" target="_blank" rel="noopener"><img class="wa-icon" src="icone-whatsapp.svg" alt="" aria-hidden="true">Chamar no WhatsApp</a><a class="btn btn-call" href="tel:+5511992442323"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>Ligar agora</a></div><div class="proof"><div><span class="stars">★★★★★</span><br><strong>4,7</strong> no Google</div><span class="proof-divider"></span><div>Atendimento em<br><strong>São Paulo e região</strong></div></div></div></div></section>
@@ -68,3 +74,4 @@
   </script>
 </body>
 </html>
+
